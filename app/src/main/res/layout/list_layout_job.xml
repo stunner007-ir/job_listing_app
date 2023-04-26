@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/llItem"
+        android:layout_width="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewJobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Android Developer"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+        <TextView
+            android:id="@+id/textViewJobDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Need Native App Developer" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="0.125"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+     <ImageView
+         android:id="@+id/imgSave"
+         android:layout_height="50dp"
+         android:padding="5dp"
+         android:layout_width="wrap_content"
+         android:src="@drawable/unsaved"/>
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/imgDelete"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/delete"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuSaved"
+        android:icon="@drawable/save_list"
+        android:title="Saved List"
+        android:iconTint="@color/white"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/save_list"
+        android:title="logout"
+        android:iconTint="@color/white"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/addactivity"
+        android:icon="@drawable/save_list"
+        android:title="add activity"
+        android:iconTint="@color/white"
+        app:showAsAction="never"
+
+        />
+</menu>
